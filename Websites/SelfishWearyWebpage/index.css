@@ -1,0 +1,30 @@
+body {
+  font-family: "Gaegu";
+  color:#000099;
+}
+.introduction{
+  font-size: 20px;
+}
+.big{
+  font-size: 30px;
+}
+body {
+  background: #005AA7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+  text-align: center;
+}
+#button {
+  transition:1s linear;
+}
+
+#button:active {
+  transform:rotate(360deg);
+}
+img {
+  transition:1s linear;
+}
+
+img:hover {
+  transform: rotate(360deg);
+}

@@ -1,0 +1,36 @@
+body {
+  text-align: center;
+  font-family: "Dokdo";
+  background: #E44D26;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F16529, #E44D26);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F16529, #E44D26); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.uhhh {
+  font-family: "Arial";
+  font-size: 1000px;
+}
+a {
+  float: left;
+  font-size: 100px;
+  color: rgb(255, 0, 233);
+}
+p:hover {
+  background-color: blue;
+}
+
+button:active {
+  background-color: black;
+  /*visibility: hidden;*/
+}
+img {
+  transition: 120s linear;
+}
+img:hover
+{
+  transform: rotate(360deg);
+}
+
+.buttonCreatedHeading {
+  color: pink;
+}

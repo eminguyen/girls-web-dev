@@ -1,0 +1,38 @@
+body {
+  font-family: "Jua";
+}
+.introduction {
+  font-size: 30px;
+}
+.awesome{
+  font-size :40px;
+}
+p {
+  color: #9ee3ef;
+}
+body {
+   background: #C33764;  /* fallback for old browsers */
+
+  background: -webkit-linear-gradient(to right, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+;
+text-align: center;
+}
+button
+{
+  transition: 1s linear;
+}
+
+button:active
+{
+  transform: rotate(360deg);
+}
+img
+{
+  transition: 1s linear;
+}
+
+img:hover
+{
+  transform: rotate(360deg);
+}
